@@ -169,7 +169,6 @@ const CoreApp: Omit<NextAppComponentType, 'origGetInitialProps'> = ({
                     applicationTitle={currentSettings.applicationTitle}
                   />
                 </Head>
-                <StatusChecker />
                 <ServiceWorkerSetup />
                 <UserContext initialUser={user}>{component}</UserContext>
               </ToastProvider>

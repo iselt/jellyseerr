@@ -72,7 +72,7 @@ const StatusChecker = () => {
         >
           {intl.formatMessage(messages.restartRequiredDescription)}
         </Modal>
-      ) : (
+      ): (
         <Modal
           title={intl.formatMessage(messages.appUpdated, {
             applicationTitle: settings.currentSettings.applicationTitle,
@@ -83,7 +83,7 @@ const StatusChecker = () => {
           })}
           backgroundClickable={false}
         >
-          {/*intl.formatMessage(messages.appUpdatedDescription)*/}
+          {intl.formatMessage(messages.appUpdatedDescription)}
         </Modal>
       )}
     </Transition>
