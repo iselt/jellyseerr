@@ -83,7 +83,7 @@ const StatusChecker = () => {
           })}
           backgroundClickable={false}
         >
-          {intl.formatMessage(messages.appUpdatedDescription)}
+          {/*intl.formatMessage(messages.appUpdatedDescription)*/}
         </Modal>
       )}
     </Transition>
